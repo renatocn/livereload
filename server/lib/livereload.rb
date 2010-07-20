@@ -101,7 +101,7 @@ module LiveReload
     config.debug = false
     config.host  = '0.0.0.0'
     config.port  = 10083
-    config.exts  = %w/html css js png gif jpg php php5 py rb erb/
+    config.exts  = %w/html css js png gif jpg php php5 py rb erb scss/
     config.exclusions = %w!*/.git/* */.svn/* */.hg/*!
     config.apply_js_live  = true
     config.apply_css_live = true
